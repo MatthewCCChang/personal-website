@@ -1,11 +1,17 @@
 import Image from "next/image";
 import Navbar from "@/app/components/navbar";
 
+
 export default function Home() {
   return (
     
-    <div className="justify-center flex">
-      <Navbar/>
+    <div className=" flex flex-row flex-wrap">
+      {/* <Navbar/> */}
+      <div className="flex text-center">
+        <h1>Welcome to my website. I'm Matthew Chang, student and software developer
+          with experience in full stack, machine learning, and DevOps.
+        </h1>
+      </div>
     </div>
   );
 }
