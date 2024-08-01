@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.custom-img {
+  background-image: url("./background.jpg");
+}
+
+.custom-img-night {
+  background-image: url(./night-background.jpg);
+}

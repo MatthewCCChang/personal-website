@@ -22,11 +22,11 @@ export default function Navbar() {
 
         // </div>
         <nav className=""> 
-        <div className="flex justify-between">
-            <div className=" bg-red-500 flex-wrap inline mx-5 text-2xl ">
+        <div className="flex justify-between bg-gray-300">
+            <div className="  flex-wrap inline mx-5 text-2xl text-black">
             <Link href="/" >Matthew</Link>
             </div>
-            <div className=" flex gap-8 p-3 bg-blue-400 "> 
+            <div className=" flex gap-8 p-3 text-black "> 
                  <Link href="/projects" >Projects</Link>
     
                  <Link href="/gallery" >Gallery</Link>
