@@ -21,12 +21,12 @@ export default function Navbar() {
             
 
         // </div>
-        <nav className=""> 
-        <div className="flex justify-between bg-gray-300">
-            <div className="  flex-wrap inline mx-5 text-2xl text-black">
+        <nav className="sticky top-0"> 
+        <div className="flex p-3 w-full shadow-md dark:shadow-slate-400 justify-between bg-black">
+            <div className="  flex-wrap inline mx-5 text-3xl text-white font-mono">
             <Link href="/" >Matthew</Link>
             </div>
-            <div className=" flex gap-8 p-3 text-black "> 
+            <div className=" flex gap-8 pl-3 pr-3 text-white font-mono text-xl"> 
                  <Link href="/projects" >Projects</Link>
     
                  <Link href="/gallery" >Gallery</Link>
