@@ -21,7 +21,7 @@ export default function Navbar() {
             
 
         // </div>
-        <nav className="sticky top-0"> 
+        <nav className="sticky top-0 w-full"> 
         <div className="flex p-3 w-full shadow-md dark:shadow-slate-400 justify-between bg-black">
             <div className="  flex-wrap inline mx-5 text-3xl text-white font-mono">
             <Link href="/" >Matthew</Link>

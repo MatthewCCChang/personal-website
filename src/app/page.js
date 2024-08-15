@@ -8,14 +8,21 @@ export default function Home() {
     //space themed
     <div className="  mb-12 flex flex-row justify-center flex-wrap h-screen bg-black w-full">
       {/* <Navbar/> */}
-      <div className="flex flex-row text-white-500 mt-5 font-mono h-[50%] bg-red-500">
-        <div className="flex basis-3/4 bg-blue-600">
-          <h1 className="m-3">
-            Welcome to my website. I'm Matthew Chang, student and software
-            developer with experience in full stack, machine learning, and DevOps.
-          </h1>
+      <div className="flex flex-row text-white-500 mt-5 font-mono h-[80%] bg-red-500">
+        <div className="flex basis-3/4 bg-blue-600 text-center">
+          <div className="w-full">
+            <h1 className="m-3 flex-row">
+                Welcome to my website. I'm Matthew Chang, student and software
+                developer with experience in full stack applications, machine learning, and DevOps.
+
+              </h1>
+          </div>
+          
+          <div className="flex-row">
+            <h1>Contributed to 32 repositories, worked with 100+, </h1>
+          </div>
         </div>
-        <div className="basis-1/4 m-2">
+        <div className="basis-1/4 object-contain ">
           <Image src={'/Profile.jpg'} width={400} height={400} alt='Image of Matthew Chang'/>
         </div>
         {/*image*/}
