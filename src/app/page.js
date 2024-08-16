@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
-    //space themed
+    //space themed: add little stars that are yellow, include shades of blue and purple, gray and silver/
     <div className="  mb-12 flex flex-row justify-center flex-wrap h-screen bg-black w-full">
       {/* <Navbar/> */}
       <div className="flex flex-row text-white-500 mt-5 font-mono h-[80%]">
