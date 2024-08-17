@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="sticky top-0 w-full">
       <div className="flex p-3 w-full shadow-md dark:shadow-slate-400 justify-between bg-black">
         <div className="  flex-wrap inline mx-5 text-3xl text-white font-mono">
-          <Link href="/">Matthew</Link>
+          <Link href="/">Matthew Chang</Link>
         </div>
         <div className=" flex gap-8 pl-3 pr-3 text-white font-mono text-xl">
           <Link href="/projects">Projects</Link>
