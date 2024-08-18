@@ -12,21 +12,21 @@ export default function Home() {
         <div className="basis-3/4 text-center flex-column">
           <div className="w-full text-5xl font-mono mb-5 justify-center flex">
             {/* <h1 className="text-yellow-400 text-3xl pb-5">✦</h1> */}
-            <h1>I'm Matthew Chang</h1>
+            {/* <h1>I'm Matthew Chang</h1> */}
             {/* <h1 className="text-yellow-400 text-3xl pt-5">✦</h1> */}
           </div>
           <div className="w-full text-5xl font-mono bg-gradient-to-r from-blue-300 via-purple-400 to-gray-300 inline-block text-transparent bg-clip-text">
             <h1>Software Engineer</h1>
           </div>
           <div className="w-full">
-            <h1 className="m-3 text-4xl mb-5">
-              I'm Matthew Chang, student and software developer with experience
+            <h1 className="m-3 text-3xl mb-5">
+              Student and software developer with experience
               building full stack applications, machine learning projects, and
               DevOps monitoring systems.
             </h1>
           </div>
 
-          <div className=" w-full text-4xl">
+          <div className=" w-full text-7xl mt-5">
             <h1>2+ years of experience, contributed to 32 repositories</h1>
           </div>
         </div>
