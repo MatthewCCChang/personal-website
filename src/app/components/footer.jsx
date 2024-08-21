@@ -3,7 +3,8 @@ import Image from "next/image";
 
 const Footer = function () {
   return (
-    <div className="sticky bottom-0">
+    <footer>
+      {/* <div className="sticky bottom-0"> */}
       <div className=" flex justify-center w-full shadow-md dark:shadow-slate-400 p-3 bg-black">
         <div className="ml-3 mr-3 ">
           <Link href="https://www.linkedin.com/in/matthew-chang-39754a216/">
@@ -52,7 +53,9 @@ const Footer = function () {
           </Link>
         </div>
       </div>
-    </div>
+    {/* </div> */}
+    </footer>
+    
   );
 };
 
